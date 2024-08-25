@@ -12,8 +12,7 @@ An implementation of various CPU scheduling algorithms in C++. The algorithms in
     - [Feedback with varying time quantum (FBV)](#feedback-with-varying-time-quantum-fbv)
     - [Aging](#aging)
   - [Installation](#installation)
-  - [Input Format](#input-format)
-  - [Contributors](#contributors)
+  
     ## Algorithms
 
 ### First Come First Serve (FCFS)
@@ -87,7 +86,7 @@ the following steps.
     - The scheduler choses the highest priority process from among all the eligible processes.
 
 - Note that during each call to the scheduler, the complete ready list has to be traversed.
-## Installation
+## Installation for windows 
 1- Clone the repository
 
 2- Open the repository in the terminal 
@@ -108,3 +107,14 @@ Get-Content testcases/01a-input.txt| ./lab4.exe
   ```bash
 ./lab4.exe
 ```
+
+## Installation for linux 
+1- Clone the repository
+
+2- Install g++ compiler and make
+```bash
+sudo apt-get install g++ make
+```
+3- Compile the code using `make` command
+
+4- Run the executable file
