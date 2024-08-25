@@ -88,3 +88,23 @@ the following steps.
 
 - Note that during each call to the scheduler, the complete ready list has to be traversed.
 ## Installation
+1- Clone the repository
+
+2- Open the repository in the terminal 
+
+3- Run the following commands one by one :-
+   ```bash
+g++ -c main.cpp
+```
+```bash
+g++ -o lab4 main.o
+```
+Now the environment for inpout output has successfully setup .To run a input:-
+```bash
+Get-Content testcases/01a-input.txt| ./lab4.exe
+```
+
+4- you can also give customize input in the given format after the following command :-
+  ```bash
+./lab4.exe
+```
